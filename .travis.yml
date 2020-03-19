@@ -1,9 +1,10 @@
 ---
 dist: xenial
 language: nodejs
+node_js: 12
 git:
   depth: 5
-
+cache: npm
 script:
   - npm ci
   - npm run build
